@@ -133,7 +133,7 @@ jobs:
         run: echo "simulating docker compose build api"
 
       - name: Tag image
-        run: echo "simulating docker tag "
+        run: echo "simulating docker tag api:latest api:$VERSION "
 
       - name: Push image
         run: echo "simulating docker push api"

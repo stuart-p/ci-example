@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches: [main]
+    tags: ['v*']
   pull_request:
     branches: [main]
 
@@ -115,13 +116,6 @@ jobs:
       - name: Stop Docker containers
         if: always()
         run: docker compose down
-
-on:
-  push:
-    branches: [main]
-    tags: ['v*']
-  pull_request:
-    branches: [main]
 
 jobs:
   release:

@@ -2,7 +2,7 @@
 
 # Basic CI Pipeline Example with GitHub Actions
 
-This repository contains a basic example of setting up a Continuous Integration (CI) pipeline using [GitHub Actions](https://github.com/features/actions).
+This repository contains a basic example of setting up a Continuous Integration (CI) pipeline using [GitHub Actions](https://github.com/features/actions). It pushes a built Docker image of the api service to GitHub Container Repository (GHCR).
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Demonstrate how to configure a simple CI workflow that builds and tests a Node.j
 
 - [GitHub account](https://github.com/)
 - [Node.js](https://nodejs.org/) (for local development)
-- [Docker](https://www.docker.com/) (optional, for containerization)
+- [Docker](https://www.docker.com/) (for containerization)
 
 ## Getting Started
 
@@ -39,6 +39,7 @@ Demonstrate how to configure a simple CI workflow that builds and tests a Node.j
 - **Runs tests** to ensure code quality.
 - **Builds** the Node.js/Express application Docker image.
 - **Runs and smoke tests** Check the running container to verify it starts and responds as expected.
+- **Pushes the Docker image to GHCR on release tags.**
 
 The workflow configuration can be found in `.github/workflows/`.
 

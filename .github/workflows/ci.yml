@@ -154,14 +154,14 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           generate_release_notes: true
-        body: |
-          ## Docker Image Release
-          Docker image for version ${{ env.VERSION }} has been built and pushed to GitHub Container Registry, 
-          here - [`ci-example-api`](https://github.com/${{ github.repository }}/packages/container/ci-example-api).
+          body: |
+            ## Docker Image Release
+            Docker image for version ${{ env.VERSION }} has been built and pushed to GitHub Container Registry, 
+            here - [`ci-example-api`](https://github.com/${{ github.repository }}/packages/container/ci-example-api).
 
-          You can pull it using:
-          ```
-          docker pull ${{ env.IMAGE_NAME }}
-          ```
+            You can pull it using:
+            ```
+            docker pull ${{ env.IMAGE_NAME }}
+            ```
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

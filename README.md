@@ -2,7 +2,7 @@
 
 # Basic CI Pipeline Example with GitHub Actions
 
-This repository contains a basic example of setting up a Continuous Integration (CI) pipeline using [GitHub Actions](https://github.com/features/actions). It pushes a build Docker image of the api service to GitHub Container Repository (GHCR).
+This repository contains a basic example of setting up a Continuous Integration (CI) pipeline using [GitHub Actions](https://github.com/features/actions). It pushes a built Docker image of the api service to GitHub Container Repository (GHCR).
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Demonstrate how to configure a simple CI workflow that builds and tests a Node.j
 
 - [GitHub account](https://github.com/)
 - [Node.js](https://nodejs.org/) (for local development)
-- [Docker](https://www.docker.com/) (optional, for containerization)
+- [Docker](https://www.docker.com/) (for containerization)
 
 ## Getting Started
 

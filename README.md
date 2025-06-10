@@ -1,4 +1,4 @@
-[![CI](https://github.com/stuart-p/ci-example/actions/workflows/ci.yml/badge.svg)](https://github.com/stuart-p/ci-example/actions/workflows/ci.yml)
+[![CI](https://github.com/stuart-p/ci-example/actions/workflows/ci.yml/badge.svg)](https://github.com/stuart-p/ci-example/actions/workflows/ci.yml) &nbsp;&nbsp; [![Release](https://img.shields.io/github/v/tag/stuart-p/ci-example?label=latest%20release&color=red)](https://github.com/stuart-p/ci-example/releases) &nbsp;&nbsp; [![Docker](https://img.shields.io/badge/Docker_image-AADAD7?logo=docker)](https://ghcr.io/stuart-p/ci-example-api)
 
 # Basic CI Pipeline Example with GitHub Actions
 
